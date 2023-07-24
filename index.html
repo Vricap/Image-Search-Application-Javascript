@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search Engine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>SEARCH <em>ANY</em> IMAGES</h1>
+
+    <form id="form">
+      <input type="text" id="form-input" placeholder="Type here..." />
+      <button id="form-search-btn">search</button>
+    </form>
+
+    <a target="_blank" href="https://images.unsplash.com/photo-1566559631170-a462eb20c432?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwxMnx8aW5kb25lc2lhJTIwdGVtcGxlfGVufDB8fHx8MTY5MDE2NzA0NXww&ixlib=rb-4.0.3&q=85">
+    <div class="search-results">
+      <div class="search-result result-placeholder">
+        <img
+          class="image-result"
+          src="https://images.unsplash.com/photo-1566559631170-a462eb20c432?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwxMnx8aW5kb25lc2lhJTIwdGVtcGxlfGVufDB8fHx8MTY5MDE2NzA0NXww&ixlib=rb-4.0.3&q=80&w=400"
+          alt=""
+        />
+        <span>Beautiful ancient Indonesian temple</span>
+      </div>
+    </a>
+
+    <a target="_blank" href="https://images.unsplash.com/photo-1625733143999-f6c5cc7a2c18?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwxMXx8YmFsaW5lc2UlMjB3b21hbnxlbnwwfHx8fDE2OTAxNzQ2NTh8MA&ixlib=rb-4.0.3&q=85">
+      <div class="search-result result-placeholder">
+          <img
+            class="image-result"
+            src="https://images.unsplash.com/photo-1625733143999-f6c5cc7a2c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwxMXx8YmFsaW5lc2UlMjB3b21hbnxlbnwwfHx8fDE2OTAxNzQ2NTh8MA&ixlib=rb-4.0.3&q=80&w=400"
+            alt=""
+        />
+        <span>Indonesian woman in traditional clothes</span>
+      </div>
+    </a>
+
+    <a target="_blank" href="https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwxM3x8Y2l0eSUyMG5pZ2h0fGVufDB8fHx8MTY5MDE2NzIwOXww&ixlib=rb-4.0.3&q=85">
+      <div class="search-result result-placeholder">
+        <img
+            class="image-result"
+            src="https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwxM3x8Y2l0eSUyMG5pZ2h0fGVufDB8fHx8MTY5MDE2NzIwOXww&ixlib=rb-4.0.3&q=80&w=400"
+            alt=""
+        />
+        <span>A beautiful light in night city</span>
+      </div>
+    </a>
+
+    <a target="_blank" href="https://images.unsplash.com/photo-1617782040854-8023cecf984c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwzMXx8cmljZWZpZWxkfGVufDB8fHx8MTY5MDE2NzE2MXww&ixlib=rb-4.0.3&q=85">
+      <div class="search-result result-placeholder">
+          <img
+            class="image-result"
+            src="https://images.unsplash.com/photo-1617782040854-8023cecf984c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg5MTV8MHwxfHNlYXJjaHwzMXx8cmljZWZpZWxkfGVufDB8fHx8MTY5MDE2NzE2MXww&ixlib=rb-4.0.3&q=80&w=400"
+            alt=""
+        />
+        <span>Ricefield in the morning</span>
+      </div>
+    </div>
+  </a>
+
+    <button id="show-more-btn">SHOW MORE</button>
+  </body>
+</html>
